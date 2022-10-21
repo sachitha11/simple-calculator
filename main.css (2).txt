@@ -1,0 +1,96 @@
+body {
+	/* background: url(http://www.inkspilldesign.com/demo/wood-tile-background.jpg); */
+	/* background-color: #424242; */
+	/* font-family: Tahoma; */
+	background-image: url("zimg.jpg");
+	/* background-image: url("Scooter.jpg"); */
+}
+
+.textview{
+  display: inline-block;
+	margin: 2px;
+	width: 198px;
+	height: 29px;
+	font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(245, 242, 237, 0.589);
+	/* background:none */
+	/* border-radius: 10px; */
+	border: none;
+}
+
+.equalButton {
+    cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height:91px;
+    outline: none;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+  
+}
+
+.button {
+    cursor: pointer;
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height: 42px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	outline: none;
+  
+}
+
+.button:active, .allclearButton:active,.equalButton:active{
+    background-color: #081109;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+  }
+
+
+
+.button:hover,.equalButton:hover {
+	background-color: #1fc6b3;
+	box-shadow: 0px 0px 2px #0ccfcc, inset 0px -20px 1px #159b9b;
+	border-top: 2px solid rgb(25, 189, 211);
+	border-right: 2px solid rgb(9, 175, 208);
+	border-bottom: 2px solid #12b4cd;
+	border-left: 2px solid #098298;
+}
+
+.allclearButton {
+  border-radius: 10px;
+	color: rgb(212, 12, 12);
+    margin: 2px;
+	width: 42px;
+	height: 42px;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #cc1616;
+	border-top: 2px solid #FF8484;
+	border-right: 2px solid #FF8484;
+	border-bottom: 2px solid #800000;
+	border-left: 2px solid #1b1818;
+	box-shadow: 0px 0px 2px #252323, inset 0px -20px 1px #B00000;
+	outline: none;
+}
+
+h1{
+	color:#0b0805;
+	font-size: 52px;
+    text-justify: newspaper;
+    text-align: center;
+
+}
+.container{
+		background: rgba(21, 16, 173, 0.589);
+		/* background-size: 100px 80px; */
+		background-size: cover;
+		position:absolute;
+        top:50%;
+        left:50%;
+        transform:translateX(-50%) translateY(-50%)
+}
